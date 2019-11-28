@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Equition: mobile app for optimizing
+            stock portfolios maximizing their Shape, Sortino, Omega ratios.">
+    <meta name="author" content="Werhal Media">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+    <meta property="og:site_name" content="" /> <!-- website name -->
+    <meta property="og:site" content="https://equition.werhal.com" /> <!-- website link -->
+    <meta property="og:title" content="Equition" /> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="Mobile app for optimizing stock
+            portfolios maximizing their Shape, Sortino, Omega ratios." />
+    <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+    <meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>Equition - optimize your stock portfolio</title>
+
+    <!-- Styles -->
+    <!--
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,400i,700,700i" rel="stylesheet">
+    -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+
+    <!--<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet"> -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/aig.css" rel="stylesheet">
+
+
+    <link rel="icon" type="image/png" sizes="256x256" href="images/favicon/favicon-256.png">
+    <link rel="icon" type="image/png" sizes="128x128" href="images/favicon/favicon-128.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="images/favicon/favicon-64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16.png">
+
+    <!-- Favicon  
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="manifest" href="images/favicon_io/site.webmanifest">-->
+    <!--<link rel="icon" href="images/favicon-3.png">-->
+    <!--<link rel="manifest" href="/manifest.webmanifest">-->
+    <!--<link rel="icon" href="images/favicon/favicon.ico">-->
+
+    <!--<link rel="stylesheet" type="text/css" href="node_modules/html5-device-mockups/dist/device-mockups.min.css">-->
+    <style>
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        .navbar-custom .navbar-brand.logo-text {
+            font-weight: normal;
+        }
+    </style>
+    <!-- GOOGLE ANALYTICS -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XYMDNZ2K2Y"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-XYMDNZ2K2Y');
+    </script>
+</head>
+
+<body data-spy="scroll" data-target=".fixed-top">
+
+    <!-- Preloader -->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom
+            fixed-top">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!--<a class="navbar-brand logo-text page-scroll" href="index.html">Equition</a> -->
+        <a class="navbar-brand logo-text page-scroll" href="index.html">
+            <!--<img src="images/favicon/favicon-256.png" -->
+            <!-- images/Equition-logo-white-256x256.png-->
+            <!--  <img src="images/favicon/favicon-256.png"  
+        style="height:3rem; padding: 0 0.75rem 0.5rem 0; opacity:0.9;" alt="Equition Logo"/>-->
+            Equition</a>
+
+
+
+        <!-- Image Logo 
+        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> -->
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#header">HOME
+                        <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#introAnchor">INTRO</a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#featuresAnchor">FEATURES</a>
+                </li>
+
+
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#download">DOWNLOAD</a>
+                </li>
+
+                <!--
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#preview">PREVIEW</a>
+                </li>
+                    -->
+                <!-- Dropdown Menu        
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" href="#details" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">DETAILS</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">TERMS CONDITIONS</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">PRIVACY POLICY</span></a>
+                    </div>
+                </li>-->
+                <!-- end of dropdown menu -->
+                <!--
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">CONTACT</a>
+                </li>
+                -->
+            </ul>
+            <!--
+            <span class="nav-item social-icons">
+                <span class="fa-stack">
+                    <a href="#your-link">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-facebook-f fa-stack-1x"></i>
+                    </a>
+                </span>
+                <span class="fa-stack">
+                    <a href="#your-link">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-twitter fa-stack-1x"></i>
+                    </a>
+                </span>
+            </span>
+            -->
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <!--<h1>MOBILE APP <br>FOR <span id="js-rotating">DESIGNERS, MARKETERS, DEVELOPERS</span></h1>-->
+                            <h1>MOBILE APP <br>FOR
+                                <!--<span id="js-rotating">DISCREET, BRAVE</span>-->
+                                DISCREET <br />LONG-TERM INVESTORS</h1>
+
+                            <p class="p-large">Conquer volatility waves
+                                with statistical analysis. Maximize
+                                stock returns while minimizing risks.</p>
+                            <div class="badges">
+                                <a class="badge-link"
+                                    href="https://play.google.com/store/apps/details?id=com.werhal.Equition"><img
+                                        src="images/google-play-badge.svg" alt=""></a>
+                                <!--<a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>-->
+                            </div>
+
+                            <!--<p class="p-large">Equition helps to maximize stock returns while minimizing risks. Download it today!</p>
+                            <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-apple"></i>APP STORE</a>
+                            <a class="btn-solid-lg page-scroll" href="https://play.google.com/store/apps/details?id=com.werhal.Equition"><i class="fab fa-google-play"></i>PLAY STORE</a>-->
+                        </div>
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6">
+                        <div class="image-container">
+
+
+                            <img class="img-fluid" src="images/screenshot_main/screenshot-foliometer-2-tinypng.png"
+                                alt="Equition Portfolio Screen" style="max-width: 20rem;" />
+                            <!---->
+                        </div> <!-- end of image-container -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of header-content -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+
+
+
+    <!--
+    <div id="intro" class="aigbasic" style="padding-top:2rem">
+        <div class="container text-center" style="padding-top:2rem">
+            <h2>Risk is an integral part of higher rewards</h2>
+
+
+                                
+                        
+
+            <p>Each investor strives for the maximum profitability of their stock portfolio. 
+                <br class="d-none d-md-block"/> <!-- на больших и средних экранах будет BR, на мелких - ничего 
+                 But higher returns are always associated with a higher risk of losses</p>
+        </div>
+    </div>-->
+    <div id="intro">
+
+        <a id="introAnchor" class="misplacedAnchor">&nbsp;</a>
+
+        <div class="aigbasic" style="padding-top:2rem">
+            <div class="container" style="padding-top:2rem">
+                <div class="row">
+
+                    <div class="col-lg-6 text-center align-self-center">
+                        <!--<img src="images/profits_safety_arrows/safe-profitable-3.jpg" class="img-fluid" style="max-width: 65%; opacity:0.9;"  alt="Profits vs Safety">-->
+                        <img src="images/profits_safety_ai/profits_safety.svg" class="img-fluid" style="max-width: 60%;
+                                    opacity:0.9;" alt="Profits vs Safety">
+                    </div>
+
+                    <div class="col-lg-6">
+                        <h4>Risk is an integral part of higher rewards</h4>
+                        <p>Each investor strives for the maximum
+                            profitability of their stock portfolio.
+                            But higher returns are always associated
+                            with a higher risk of losses.</p>
+
+                        <h4>Increased profitability or reduced risk:
+                            what to choose?</h4>
+
+                        <!--<p>Fortunately, this dilemma has <em>purely mathematical solutions</em>. Studies of related problems 
+                        led to creation of Modern portfolio theory and 
+                        
+                        brought several Nobel Prizes to their authors over past decades.</p>-->
+                        <p>Fortunately, this dilemma has <em>purely
+                                mathematical solutions</em>.
+
+                            The study of this problem led to the
+                            emergence of <a href="https://en.wikipedia.org/wiki/Modern_portfolio_theory"
+                                target="_blank">Modern portfolio theory</a>.
+                            This brought several <em>Nobel Prizes in
+                                Economics</em> to scientists who created
+                            and developed the ideas of theory in the
+                            following decades.
+
+
+
+                            <!-- The study of this problem 
+                        led to the creation and development of <a href="https://en.wikipedia.org/wiki/Modern_portfolio_theory" target="_blank">Modern portfolio theory</a>, 
+                        which brought several <em>Nobel Prizes in Economics</em> to the authors of original ideas.-->
+                        </p>
+                        <p>But you don't need to be a scientist to put
+                            some formulas into practice.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="aigbasic">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 text-center d-lg-none align-self-center">
+                        <!-- маленькие экраны -->
+                        <img class="img-fluid 
+                                        sharpeScreenshot" src="images/screenshot_sharpe/screenshot-foliometer-6.png"
+                            alt="Folimeter shows portfolio's Shape
+                                        Ratio" style="width: 90%; max-width: 400px;">
+                    </div>
+
+
+
+                    <div class="col-lg-6">
+                        <h4>Equition will do the math</h4>
+                        <p>Investment is not just about picking stocks,
+                            but about <em>choosing the right combination of
+                                stocks</em>.</p>
+                        <p>The app will show a <em>single number</em> measuring how profitable and safe your chosen 
+                            combination of securities is.</p>
+
+                        <!--<p>The app will show a <em>single number</em> measuring
+                            how both profitable and safe a combination of
+                            securities you have chosen.
+
+                        </p>-->
+                        <p>This measure is called <em>risk-adjusted return</em>.
+                            The higher the risk-adjusted return, the
+                            more generously the investor's risk
+                            is rewarded by the market.</p>
+
+                        <p>Adding and removing shares immediately
+                            affects the readings. By choosing securities and changing their quantities so that
+                            <em>the metric increases</em>, you make the
+                            portfolio <em>more safe, more profitable, or
+                                both</em>.</p>
+
+
+
+                    </div>
+
+                    <style>
+                        img.sharpeScreenshot {
+                            width: 60%;
+                            height: 14rem;
+                            object-fit: cover;
+                            object-position: 0 0;
+                            opacity: 0.9;
+                        }
+                    </style>
+                    <div class="col-lg-6 text-center d-none d-lg-block align-self-center">
+                        <!--  большие экраны -->
+                        <img class="img-fluid sharpeScreenshot"
+                            src="images/screenshot_sharpe/screenshot-foliometer-6.png" alt="Folimeter shows portfolio's Shape
+                                        Ratio" style="width: 60%;">
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="aigbasic" style="padding-top:1rem;">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 text-center align-self-center">
+                    <img class="img-fluid" src="images/scales_icon/scales-4.svg" style="max-width: 40%; opacity:0.9;"
+                        alt="Balance">
+                </div>
+
+
+
+                <div class="col-lg-6">
+                    <!--<div class="text-container">-->
+
+                    <h4>Trend is your friend?</h4>
+                    <!--<h4>It is a tool, not an oracle</h4>-->
+
+                    <p>The metrics calculated by the app show how the securities
+                        and portfolio performed in past years or even decades.
+                        <!--Please remember that statistics are only the best way to predict the past. 
+                            The precise metrics calculated by the app show how the portfolio performed previously.-->
+                        But <em>you will have to decide for yourself whether the
+                            established trends will continue</em>. </p>
+
+                    <p>
+                        <!--The choice of stocks is yours; you make the purchase and sale decisions. -->
+                        <!-- , making more informed decisions -->
+                        <!--Being aware of this nuance, you will be able to interpret the metrics in a useful way.  , making more informed decisions -->
+                        <!--With Equition you can make significantly more informed decisions about the expected returns and risks of your stock portfolio. 
+                            The app can be a great complement to your own analysis of the market.-->
+                        Equition should be a complement to
+                        your own market analysis, helping you make <em>informed decisions</em> whether
+                        <!--the expected returns and risks of -->your
+                        the choosen combination of securities
+                        has <em>historically
+                            shown a high and stable profit</em>.
+                    </p>
+
+                                
+
+                </div> <!-- end of col -->
+
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <div id="features" class="aigbasic">
+        <!--  rgb(45, 58, 130); -->
+
+
+        <a id="featuresAnchor" class="misplacedAnchor">&nbsp;</a>
+
+        <div class="container">
+
+            <h3>Equition Features</h3>
+            <br />
+
+            <div class="row">
+
+                <div class="col">
+                    <h5>Asset types:</h5>
+
+                    <p class="li">Securities traded in the United States for
+                        US dollars</p>
+
+                    <h5>Security types:</h5>
+                    <ul>
+                        <li>Stocks
+                        <li>Exchange-Traded Funds (ETF)
+                        <li>Mutual Funds
+                    </ul>
+
+                    <h5>Historical data:</h5>
+
+                    <p class="li">Up to 19 years of historical
+                        quotes updated weekly on Fridays, after
+                        the close of the trading week</p>
+
+
+
+                    <h5>Profitability metric:</h5>
+
+                    <p class="li">Annualized Rate of Return with
+                        compound interest taken into account</p>
+                </div>
+
+
+                <div class="col">
+
+
+
+
+                    <h5>Risk-adjusted return metrics:</h5>
+                    <ul>
+                        <li><a target="_blank" href="https://en.wikipedia.org/wiki/Sharpe_ratio">Sharpe
+                                Ratio</a>
+                        <li><a target="_blank" href="https://en.wikipedia.org/wiki/Sortino_ratio">Sortino
+                                Ratio</a>
+                        <li><a target="_blank" href="https://en.wikipedia.org/wiki/Upside_potential_ratio">Upside
+                                Potential Ratio</a>
+                        <li><a target="_blank" href="https://en.wikipedia.org/wiki/Omega_ratio">Omega
+                                Ratio</a>
+                    </ul>
+
+                    <h5>Risk metrics:</h5>
+                    <ul>
+                        <li><a target="_blank" href="https://en.wikipedia.org/wiki/Volatility_(finance)">Volatility</a>
+                            <!-- (<a href="https://en.wikipedia.org/wiki/Standard_deviation">stddev</a> of log-returns) -->
+                        <li><a target="_blank"
+                                href="https://www.investopedia.com/terms/d/downside-deviation.asp">Downside
+                                Deviation</a>
+                    </ul>
+
+                    <h5>Quantized by
+                        time periods:</h5>
+                    <ul>
+                        <li>Yearly
+                        <li>Monthly
+                        <li>Quarterly
+                        <li>Weekly
+                    </ul>
+                    <p>Most
+                        metrics
+                        optionally
+                        support
+                        setting
+                        the
+                        "minimum
+                        acceptable
+                        return"
+                        parameter.
+                        In
+                        the
+                        case
+                        of
+                        the
+                        Sharpe
+                        ratio,
+                        the
+                        minimum
+                        acceptable
+                        return
+                        is
+                        used
+                        as
+                        a
+                        "risk-free
+                        rate".</p>
+                    <p>Calculations
+                        are
+                        performed
+                        independently
+                        for
+                        individual
+                        securities
+                        and
+                        for
+                        the
+                        portfolio
+                        as
+                        a
+                        whole.</p>
+                    <p>All
+                        calculations
+                        are
+                        based
+                        on
+                        logarithmic
+                        returns.</p>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of details 1 -->
+    <div id="download" class="aigbasic">
+        <!--  rgb(45, 58, 130); -->
+        <div class="container">
+            <!--
+            <p class="p-large">Equition helps to maximize stock returns while minimizing risks. Download it today!</p>
+            <!--<a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-apple"></i>APP STORE</a>
+            <a class="btn-solid-lg page-scroll" href="https://play.google.com/store/apps/details?id=com.werhal.Equition"><i class="fab fa-google-play"></i>PLAY STORE</a>-->
+            <p>Equition
+                is
+                available
+                for
+                Android
+                Devices
+                for
+                free.<br />Download
+                now
+                to
+                get
+                started.</p>
+            <div class="badges">
+                <a class="badge-link" href="https://play.google.com/store/apps/details?id=com.werhal.Equition"><img
+                        src="images/google-play-badge.svg" alt=""></a>
+                <!--<a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>-->
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">App
+                        &amp;
+                        web
+                        page
+                        ©
+                        2019
+                        Werhal
+                        Media.
+                        Design
+                        template
+                        by
+                        <a target="_blank" href="https://landingrepo.com" style="text-decoration:
+                                                                                        none;">Landingrepo</a>
+                        /
+                        <a target="_blank" href="https://inovatik.com" style="text-decoration:
+                                                                                        none;">Inovatik</a></p>
+                </div>
+                <!-- end of col -->
+            </div>
+            <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright -->
+    <!-- end of copyright -->
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script>
+    <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script>
+    <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- Magnific Popup for lightboxes -->
+    <script src="js/morphext.min.js"></script>
+    <!-- Morphtext rotating text in the header -->
+    <script src="js/validator.min.js"></script>
+    <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script>
+    <!-- Custom scripts -->
+</body>
+
+</html>
