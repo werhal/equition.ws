@@ -18,12 +18,12 @@
 
 .aigbasic a:link, .aigbasic a:visited, .aigbasic a:active  
 {
-	color: rgb(29,29,31); /* спасибо, эппл */
+	color: #4633af; /* rgb(29,29,31); /* спасибо, эппл */
 }
 
 .aigbasic a:hover
 {
-	color: #4633af;
+	color: #FF8000;
     /*text-decoration-color: #4633af;*/
 }
 
