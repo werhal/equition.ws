@@ -57,6 +57,10 @@
 
  }
 
+.doubleIntroPadding {padding-top:2rem;}
+@media (max-width: 1999px) { .doubleIntroPadding {padding-top:1rem;}}
+@media (max-width: 991px) { .doubleIntroPadding {padding-top:0.5rem;}}
+
 
 /*.aigbasic em, em * { color: #0C8; font-style: normal;color: #084;  }*/
 .aigbasic em, em * { font-style: normal; font-weight: 400; }
