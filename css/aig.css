@@ -42,17 +42,18 @@
 
 
 
-.aigbasic h4
+.aigbasic h4, .aigbasic h5
 {
-	font: 700 1.44rem/1.75rem "Open Sans Condensed", sans-serif;
+	font: 400 1.8rem/2.0rem "Roboto Condensed", sans-serif;
 
 	margin-bottom: 1rem;
 	/*font-weight: 600;*/
 	/*font-variant: small-caps;*/
 }
 
+
 /*.aigbasic em, em * { color: #0C8; font-style: normal;color: #084;  }*/
-.aigbasic em, em * { font-style: normal; font-weight: 600; }
+.aigbasic em, em * { font-style: normal; font-weight: 400; }
 
 #features
 {
@@ -68,7 +69,7 @@
 
 #features h5
 {
-    font-weight: 600;
+    /*font-weight: 600;*/
 }
 
 #features p
