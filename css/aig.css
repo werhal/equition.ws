@@ -42,14 +42,20 @@
 
 
 
-.aigbasic h4, .aigbasic h5
+.aigbasic h4
 {
 	font: 400 1.8rem/2.0rem "Roboto Condensed", sans-serif;
-
 	margin-bottom: 1rem;
 	/*font-weight: 600;*/
 	/*font-variant: small-caps;*/
 }
+
+ .aigbasic h5
+ {
+	font: 400 1.4rem/2.0rem "Roboto Condensed", sans-serif;
+	margin-bottom: 1rem;
+
+ }
 
 
 /*.aigbasic em, em * { color: #0C8; font-style: normal;color: #084;  }*/
