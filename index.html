@@ -75,6 +75,37 @@
     </style>
     <!-- GOOGLE ANALYTICS -->
 
+    <!-- GOOGLE ADS ------------------------------------------------------------------------------------------------ -->
+
+    <!-- код для трекинга конверсий Google Ads -->
+    <!-- Global site tag (gtag.js) - Google Ads: 853246121 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-853246121"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-853246121');
+    </script>
+    <!-- Event snippet for "Goto Store" conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+    function gtag_report_conversion(url) {
+    var callback = function () {
+        if (typeof(url) != 'undefined') {
+        window.location = url;
+        }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-853246121/Z8waCIPJ37YBEKmB7pYD',
+        'event_callback': callback
+    });
+    return false;
+    }
+    </script>
+
+
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XYMDNZ2K2Y"></script>
     <script>
@@ -230,9 +261,21 @@
 
 
                             <div class="badges">
+
+                                <!-- просто ссылка
                                 <a class="badge-link"
-                                    href="https://play.google.com/store/apps/details?id=com.werhal.equition"><img
-                                        src="images/google-play-badge.svg" alt=""></a>
+                                    href="https://play.google.com/store/apps/details?id=com.werhal.equition"
+                                 ><img src="images/google-play-badge.svg" alt=""></a>
+                                --> 
+
+                                <a class="badge-link"
+                                    onclick="gtag_report_conversion('https://play.google.com/store/apps/details?id=com.werhal.equition');"
+                                    href="https://play.google.com/store/apps/details?id=com.werhal.equition"
+                                 ><img src="images/google-play-badge.svg" alt=""></a>
+
+
+
+
                                 <!--<a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>-->
                             </div>
 
@@ -665,8 +708,23 @@ Cash dividends are included in the calculations as if they were immediately rein
                 get
                 started.</p>
             <div class="badges">
+
+                                <!-- просто ссылка
+                                <a class="badge-link"
+                                    href="https://play.google.com/store/apps/details?id=com.werhal.equition"
+                                 ><img src="images/google-play-badge.svg" alt=""></a>
+                                --> 
+
+                                <a class="badge-link"
+                                    onclick="gtag_report_conversion('https://play.google.com/store/apps/details?id=com.werhal.equition');"
+                                    href="https://play.google.com/store/apps/details?id=com.werhal.equition"
+                                 ><img src="images/google-play-badge.svg" alt=""></a>
+
+
+                <!--
                 <a class="badge-link" href="https://play.google.com/store/apps/details?id=com.werhal.equition"><img
-                        src="images/google-play-badge.svg" alt=""></a>
+                        src="images/google-play-badge.svg" alt=""></a> -->
+                        
                 <!--<a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>-->
             </div>
         </div>
