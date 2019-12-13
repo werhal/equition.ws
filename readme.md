@@ -1,4 +1,5 @@
 Equition Web Site: https://equition.werhal.com
+
 Equition App: https://play.google.com/store/apps/details?id=com.werhal.equition
 
 Equition is an intuitive stock market app for sophisticated long-term portfolio optimization.
@@ -22,3 +23,5 @@ Looking for technical analysis tools? This is not a technical analysis based on 
 * Buy and Sell hints for choosing a single security, the purchase or sale of which will improve portfolio metrics
 
 Please remember that the past performance is no guarantee of future results, so this application should be a complement to, not a substitute for your own analysis of the market.
+
+Get [Equition on Google Play](https://play.google.com/store/apps/details?id=com.werhal.equition "Equition app for Android")
