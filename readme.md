@@ -1,4 +1,4 @@
-This is a repo for Equition Websire source.
+This is a repo for Equition Website source.
 
 Equition Web Site: https://equition.werhal.com
 
