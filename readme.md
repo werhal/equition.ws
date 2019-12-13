@@ -25,3 +25,4 @@ Looking for technical analysis tools? This is not a technical analysis based on 
 Please remember that the past performance is no guarantee of future results, so this application should be a complement to, not a substitute for your own analysis of the market.
 
 Get [Equition on Google Play](https://play.google.com/store/apps/details?id=com.werhal.equition "Equition app for Android")
+See [Equition Website](https://equition.werhal.com "Equition app for Android")
