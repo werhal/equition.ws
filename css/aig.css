@@ -1,0 +1,132 @@
+/* AIG */
+
+
+
+.aigbasic 
+{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: #FFF;
+
+	/*background-color: #262431;*/
+}
+
+.aigbasic, .aigbasic *
+{
+	color: rgb(29,29,31); /* спасибо, эппл */
+}
+
+.aigbasic a:link, .aigbasic a:visited, .aigbasic a:active  
+{
+	color: #4633af; /* rgb(29,29,31); /* спасибо, эппл */
+}
+
+.aigbasic a:hover
+{
+	color: #FF8000;
+    /*text-decoration-color: #4633af;*/
+}
+
+.aigbasic img
+{
+	margin-bottom: 2em;
+}
+
+.aigbasic p a 
+{
+	/*text-decoration: none;
+	border-bottom: 1px solid #999; /* #4633af;
+    text-decoration-color: #BBB;*/
+
+}
+
+
+
+.aigbasic h4
+{
+	font: 400 1.8rem/2.0rem "Roboto Condensed", sans-serif;
+	margin-bottom: 1rem;
+	/*font-weight: 600;*/
+	/*font-variant: small-caps;*/
+}
+
+ .aigbasic h5
+ {
+	font: 400 1.4rem/2.0rem "Roboto Condensed", sans-serif;
+	margin-bottom: 1rem;
+
+ }
+
+.doubleIntroPadding {padding-top:2rem;}
+@media (max-width: 1999px) { .doubleIntroPadding {padding-top:1rem;}}
+@media (max-width: 991px) { .doubleIntroPadding {padding-top:0.5rem;}}
+
+
+/*.aigbasic em, em * { color: #0C8; font-style: normal;color: #084;  }*/
+.aigbasic em, em * { font-style: normal; font-weight: 400; }
+
+#features
+{
+    padding-top:2rem;
+    padding-bottom:1em;
+}    
+
+#features .container
+{
+    padding-top:1rem;
+    background-color: #F7F7F7;
+}
+
+#features h5
+{
+    /*font-weight: 600;*/
+}
+
+#features p
+{
+    padding-left: 0.08rem;
+}
+
+#features p.li
+{
+    /*padding-left: 1.44rem;*/
+    /*padding-left: 0.1rem;*/
+}
+
+#download
+{
+    padding: 5rem 0 5rem 0;
+    text-align: center;
+}
+
+.badge-link img
+{
+    width:10rem;
+}
+
+#header .badge-link img
+{
+    opacity:0.8;
+    /*cursor: hand;*/
+}
+/*
+.badge-link:hover img
+{
+    width:10rem;
+    border: 2px #FFF solid;
+}*/
+
+
+/*  я не смог разобраться, почему при клике на навбар страница прокручивалась вверх сильнее, чем хотелось бы
+    (заголовок оказывался прикрыт панелью навигации). Быстрым решением оказалось использование хака вроде
+
+    <a id="anchorName" style="top:-3rem; position:relative; font-size:1px;">&nbsp;</a>
+
+    В файрфоксе работало и с пустым тегом. В хроме тоже прокручивалось корректно, но не подсвечивались активные 
+    разделы в навбаре. Поэтому пришлось добавить &nbsp; и задать размер 1 пиксел (с нулем пикселов тоже не 
+    работало). */
+
+.misplacedAnchor
+{
+    top:-3rem; position:relative; font-size:1px;
+}    
