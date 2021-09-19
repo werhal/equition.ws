@@ -1,6 +1,6 @@
 This is a repo for Equition Website source.
 
-Equition Web Site: https://equition.werhal.com
+Equition Web Site: https://equition.revercode.com
 
 Equition App: https://play.google.com/store/apps/details?id=com.werhal.equition
 
